@@ -1,0 +1,18 @@
+{
+  "name": "jade-demo",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable Express app for SentinelAI scan + AI fix demos. DO NOT DEPLOY.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anand@adroitts.com",
+  "license": "ISC",
+  "dependencies": {
+    "express":      "^4.19.2",
+    "mysql2":       "^3.11.0",
+    "mongodb":      "^6.8.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
