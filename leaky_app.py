@@ -70,7 +70,7 @@ DATADOG_APP_KEY     = "1a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d"
 MAILGUN_API_KEY     = "key-1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p"
 
 # SendGrid — generic 69-char with SG. prefix
-SENDGRID_API_KEY    = "SG.abcdefghijklmnopqrstuv.1234567890abcdefghijklmnopqrstuvwxyz1234567"
+SENDGRID_API_KEY    = os.environ.get("SENDGRID_API_KEY", "")
 
 # Twilio
 TWILIO_ACCOUNT_SID  = "ACa1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6"
